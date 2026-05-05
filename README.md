@@ -3,14 +3,14 @@ Amie is a local AI agent designed to interact with the operating system, automat
 Unlike other solutions, Amie is not tied to a specific model: 
 users download or choose their desired AI model through Ollama, allowing for greater flexibility and control over the agent's performance and capabilities.
 
-Objective:
+A) Objective:
   To create a solid foundation for local AI agents that can:
   Control the system
   Automate tasks
   Be freely modified by the community
   Adapt to different AI models according to user needs
 
-Installation:
+B) Installation:
   1. Clone the repository
   2. Create a virtual environment
   3. Install dependencies:
@@ -20,7 +20,7 @@ Installation:
       pip install python-dotenv
       pip install platformdirs
 
-Using the Model:
+C) Using the Model:
   Amie uses local models via Ollama. You must download or select the model you want to use before running the agent.
   
   Example with Qwen:
@@ -29,14 +29,14 @@ Using the Model:
   You can also use other Ollama-compatible models depending on your needs.
   IMPORTANT: Not all models can function as agents.
 
-Performance:
+D) Performance:
   The system functions correctly, but with relatively long response times such as:
   Creating folders: > 1 minute
   Opening files: up to 5 minutes
   Moving/copying files: > 3 minutes
   Checking date/time: ~ 1 minute
 
-Important Considerations:
+E) Important Considerations:
   Prompts should be clear and detailed.
   The operating system language affects behavior:
   "Downloads" ≠ "Descargas"
