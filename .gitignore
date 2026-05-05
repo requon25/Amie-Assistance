@@ -1,0 +1,17 @@
+# Python bytecode (el que mencionaste)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de configuración de editores (opcional)
+.vscode/
+.idea/
+
+# Archivos temporales de Linux
+.DS_Store
+*.swp
