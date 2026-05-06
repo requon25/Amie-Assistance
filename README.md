@@ -1,4 +1,5 @@
 🤖 Amie - AI Agent (Local, Open Source)
+-------------------------------------------
 Amie is a local AI agent designed to interact with the operating system, automate tasks, and serve as a foundation for collaborative open-source projects.
 Unlike other solutions, Amie is not tied to a specific model: 
 users download or choose their desired AI model through Ollama, allowing for greater flexibility and control over the agent's performance and capabilities.
@@ -52,10 +53,11 @@ E) Important Considerations:
   Performance will depend on the chosen Ollama model and the available hardware.
 
 The test was performed using Python 3.12.3
---------------------------------------------------------------------------------------------------
 
+-------------------------------------------------------------------------------------------
 
 ▶️ How to use Amie (Step by step)
+--------------------------------
 
 Follow these steps to run the project correctly:
 
