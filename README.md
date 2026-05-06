@@ -32,8 +32,11 @@ C) Using the Model:
 D) Performance:
   The system functions correctly, but with relatively long response times such as:
   Creating folders: > 1 minute,
+  
   Opening files: up to 5 minutes,
+  
   Moving/copying files: > 3 minutes,
+  
   Checking date/time: ~ 1 minute
 
 E) Important Considerations:
