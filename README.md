@@ -52,3 +52,42 @@ E) Important Considerations:
   Performance will depend on the chosen Ollama model and the available hardware.
 
 The test was performed using Python 3.12.3
+
+
+
+▶️ How to use Amie (Step by step)
+
+Follow these steps to run the project correctly:
+
+1. Ensure Ollama is running
+
+On some systems (especially Linux), you need to start it manually:
+
+ollama serve
+
+(On Windows and macOS, it's usually already running in the background.)
+
+
+
+2. Download a model
+
+Example:
+
+ollama pull qwen2.5:7b
+
+IMPORTANT: Not all models can function as agents.
+
+
+3. Configure the model in the code
+
+Open the main.py file and find where the model is defined.
+
+Example:
+
+llm = ChatOllama(model="qwen2.5:7b")
+
+Replace "qwen2.5:7b" with the model you downloaded.
+
+
+4. Run the program
+python main.py
