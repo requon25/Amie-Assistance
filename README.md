@@ -52,7 +52,7 @@ E) Important Considerations:
   Performance will depend on the chosen Ollama model and the available hardware.
 
 The test was performed using Python 3.12.3
-
+--------------------------------------------------------------------------------------------------
 
 
 ▶️ How to use Amie (Step by step)
