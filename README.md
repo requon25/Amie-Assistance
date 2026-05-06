@@ -14,10 +14,10 @@ B) Installation:
   1. Clone the repository
   2. Create a virtual environment
   3. Install dependencies:
-      pip install ollama
-      pip install langchain
-      pip install langchain-ollama
-      pip install python-dotenv
+      pip install ollama,
+      pip install langchain,
+      pip install langchain-ollama,
+      pip install python-dotenv,
       pip install platformdirs
 
 C) Using the Model:
