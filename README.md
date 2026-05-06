@@ -31,17 +31,21 @@ C) Using the Model:
 
 D) Performance:
   The system functions correctly, but with relatively long response times such as:
-  Creating folders: > 1 minute
-  Opening files: up to 5 minutes
-  Moving/copying files: > 3 minutes
+  Creating folders: > 1 minute,
+  Opening files: up to 5 minutes,
+  Moving/copying files: > 3 minutes,
   Checking date/time: ~ 1 minute
 
 E) Important Considerations:
   Prompts should be clear and detailed.
+  
   The operating system language affects behavior:
   "Downloads" ≠ "Descargas"
+  
   Not all LLM models work well as agents.
+  
   Navigates in complex directories, such as Ollama, are limited.
+  
   Performance will depend on the chosen Ollama model and the available hardware.
 
 The test was performed using Python 3.12.3
